@@ -1,0 +1,11 @@
+html {
+  font-size: 18px;
+  font-family: 'Lucida Sans Unicode';
+  color: rgba(0, 0, 0, 0.87); }
+
+html, body {
+  height: 100%; }
+
+@media (max-width: 600px) {
+  html {
+    font-size: 16px; } }
