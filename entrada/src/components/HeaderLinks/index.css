@@ -1,0 +1,32 @@
+.header__links {
+	display: flex;
+	flex-flow: row-wrap;
+	align-items: flex-end;
+	margin-left: auto;
+	margin-right: -.5rem;
+	margin-top: .5rem;
+}
+
+.header__links__link {
+	margin-left: .5rem;
+	margin-right: .5rem;
+	color: rgba(110,120,70,.75);
+	border-bottom: 1px solid transparent;
+	transition: border-color 1s ease;
+	font-family: 'Optima LT W01 Bold';
+}
+
+.header__links__link:hover {
+	color: rgba(110,120,70,.75);
+	border-bottom: 1px solid rgba(110,120,70,.75);
+}
+
+.header__links__link--active {
+	border-bottom: 1px solid rgba(110,120,70,.75);
+}
+
+@media only screen and (max-width: 600px) {
+  .header__links {
+    display: none;
+  }
+}

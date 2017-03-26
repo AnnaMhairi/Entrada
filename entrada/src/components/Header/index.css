@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex-basis: 100;
+  background-color: rgba(246,236,224,.1);
+  padding: .5rem 1rem .5rem 1rem;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  flex-flow: column nowrap;
+}
+
+.header__row {
+	display: flex;
+	flex-flow: row wrap;
+	flex-basis: 100%;
+}

@@ -1,11 +1,58 @@
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=5955d2bf-2186-4b98-b98f-58343602a200&fontids=1564433,1564469");
+@font-face{
+    font-family:"Optima LT W01 Roman";
+    src:url("Fonts/1564433/faef1464-e833-43ac-a2ee-7a4f5f3ab909.eot?#iefix");
+    src:url("Fonts/1564433/faef1464-e833-43ac-a2ee-7a4f5f3ab909.eot?#iefix") format("eot"),url("Fonts/1564433/776a385c-3d8b-4237-8d14-382015d9ff12.woff2") format("woff2"),url("Fonts/1564433/b72e728e-eac1-4261-ac86-579fa6ae4a0b.woff") format("woff"),url("Fonts/1564433/7d64c37c-83dc-4450-8781-17b619b16935.ttf") format("truetype");
+}
+@font-face{
+    font-family:"Optima LT W01 Bold";
+    src:url("Fonts/1564469/e1cc0e94-8b24-4f52-8e15-8399b02ca60e.eot?#iefix");
+    src:url("Fonts/1564469/e1cc0e94-8b24-4f52-8e15-8399b02ca60e.eot?#iefix") format("eot"),url("Fonts/1564469/f7b586da-68e1-406c-87f7-1c45040e49f9.woff2") format("woff2"),url("Fonts/1564469/7b16da83-d4bf-4808-b6f7-fd915dd9b61f.woff") format("woff"),url("Fonts/1564469/887409a8-7285-46ea-ba85-893160ec2888.ttf") format("truetype");
+}
+
 html {
-  font-size: 18px;
-  font-family: 'Lucida Sans Unicode';
-  color: rgba(0, 0, 0, 0.87); }
+	font-size: 18px;
+	font-family: 'Optima LT W01 Roman';
+	color: rgba(0,0,0,.87);
+	line-height: 1.5;
+}
 
 html, body {
-  height: 100%; }
+	height: 100%;
+}
 
 @media (max-width: 600px) {
   html {
-    font-size: 16px; } }
+  	font-size: 16px;
+  }
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	text-transform: uppercase;
+	color: rgb(10,80,120);
+	font-size: .8rem;
+	font-weight: bold;
+	transition: color 1s ease;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgba(10,80,120, .75);
+	cursor: hand;
+	cursor: pointer;
+}
+
+/* clear */
+
+body {
+	margin: 0;
+	/*border: 8px solid rgb(10,80,120);*/
+}
+
+/* flex containers */

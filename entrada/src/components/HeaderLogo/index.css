@@ -1,0 +1,22 @@
+.header__logo {
+	border-bottom: 2px solid rgba(0,0,0,.87);
+	display: flex;
+	flex-flow: row wrap;
+	flex: 1;
+	font-size: 1.4rem;
+}
+
+.header__logo__right,
+.header__logo__left {
+	color: rgba(0,0,0,.87);
+	font-size: 1.2rem;
+}
+
+.header__logo__right:hover,
+.header__logo__left:hover {
+	color: rgba(0,0,0,.87);
+}
+
+.header__logo__right {
+	margin-left: auto;
+}

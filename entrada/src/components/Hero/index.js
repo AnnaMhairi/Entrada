@@ -1,14 +1,13 @@
 import React from 'react';
-import './index.scss';
+import './index.css';
 
 export default class Hero extends React.Component {
   render () {
     return (
-      <div className='hero'>
-  	   <div className='hero__image'>
-  		   <div className="hero__image__overlay">
-         </div>
-	      </div>
+      <div className='hero hero--home'>
+        <div className='hero__image'>
+          <div className="hero__image__overlay"></div>
+        </div>
       </div>
     )
   }

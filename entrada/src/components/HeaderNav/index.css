@@ -1,0 +1,27 @@
+.header__nav {
+	margin-left: auto;
+	padding: 0px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	margin-bottom: -4px;
+}
+
+.header__nav__icon {
+	color: rgba(0,0,0,.75);
+	transition: all .5s ease;
+}
+
+.header__nav__icon i {
+	font-size: 1.4rem;
+}
+
+.header__nav__icon:hover {
+	color: rgba(0,0,0,.5);
+}
+
+@media only screen and (min-width: 600px) {
+  .header__nav {
+    display: none;
+  }
+}
