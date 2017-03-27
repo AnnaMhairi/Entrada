@@ -1,0 +1,40 @@
+.services {
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex-basis: 100;
+  flex-flow: column nowrap;
+  background-color: rgba(246,236,224,.25);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  align-items: center;
+}
+
+.services__cta {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.services__copy {
+	margin-top: 1rem;
+	max-width: 28rem;
+}
+
+.button {
+	padding: .5rem 1rem .5rem 1rem;
+	transition: all 1s ease;
+	font-family: 'Optima LT W01 Bold';
+}
+
+.button:hover {
+	color: rgba(10,80,120,.75);
+}
+
+.services__header {
+	color: rgba(0,0,0,.7);
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: 'Optima LT W01 Bold';
+}
