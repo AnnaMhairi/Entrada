@@ -38,3 +38,8 @@
 	font-size: 1.2rem;
 	font-family: 'Optima LT W01 Bold';
 }
+
+.text--emphasis {
+  color: rgb(110,120,70);
+  font-family: 'Optima LT W01 Bold';
+}
