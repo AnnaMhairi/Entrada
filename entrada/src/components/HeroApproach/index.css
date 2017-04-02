@@ -12,13 +12,13 @@
   border-top: 1px solid rgba(0,0,0,.1);
 }
 
-.hero--home {
-  background:
-  	linear-gradient(
-        rgba(0,80,120,.5),
-        rgba(0,80,120,.5)
+.hero--approach {
+	background:
+	linear-gradient(
+      rgba(110,120,70,.5),
+      rgba(110,120,70,.5)
     ),
-    url('./img/ben_home.jpg');
+	url('./img/ben_grand.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;

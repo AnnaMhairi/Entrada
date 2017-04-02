@@ -1,0 +1,35 @@
+.home {
+	align-items: center;
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex-basis: 100;
+  flex-flow: column nowrap;
+  background-color: rgba(246,236,224,.25);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.home__copy {
+	margin-top: 1rem;
+	max-width: 28rem;
+}
+
+@media only screen and (min-width: 500px) {
+  .home__header {
+    color: rgba(0,0,0,.7);
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Optima LT W01 Bold';
+  }
+
+  .home--top {
+  	min-height: 0rem;
+  	background-color: rgba(10,80,120,.5);
+  }
+
+  .home__copy {
+    margin-top: 1rem;
+    max-width: 28rem;
+  }
+}

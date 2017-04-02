@@ -1,0 +1,57 @@
+.approach {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  min-height: 10rem;
+  border-top: 1px solid rgba(0,0,0,.1);
+  align-items: center;
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex-basis: 100;
+  flex-flow: column nowrap;
+  background-color: rgba(246,236,224,.25);
+  padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.approach__header {
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: 'Optima LT W01 Bold';
+  color: rgba(0,0,0,.7);
+}
+
+.approach__items {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	justify-content: space-around;
+	padding-top: 1rem;
+}
+
+.approach__items__item {
+	display: flex;
+	flex-flow: column nowrap;
+	flex-basis: 33%;
+	flex: 0 0 100%;
+	text-align: left;
+	padding-top: 1rem;
+	max-width: 28rem;
+}
+
+.approach__items__item__copy {
+	margin: 0px;
+}
+
+.approach__cta {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+	.approach__items__item {
+		flex-basis: 30%;
+		padding: .5rem;
+		padding-top: 0px;
+	}
+}
