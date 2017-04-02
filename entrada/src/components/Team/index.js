@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
+import HeroTeam from '../HeroTeam'
+import TeamContent from '../TeamContent'
+import '../../index.css';
+import './index.css';
 
-export default class Team extends React.Component {
-  render () {
+export default class Team extends Component {
+  render() {
     return (
-      <div>Team</div>
+      <div id="team">
+        <HeroTeam />
+        <TeamContent />
+      </div>
     )
   }
 }

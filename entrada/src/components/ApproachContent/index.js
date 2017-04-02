@@ -1,7 +1,15 @@
 import React from 'react';
+import ReactDOM from 'react-dom'
+import Team from '../Team'
 import './index.css'
 
 export default class ApproachContent extends React.Component {
+  renderTeam () {
+    return (
+      ReactDOM.render(<Team />, document.getElementById('index'))
+    )
+  }
+
   render () {
     return (
       <div className='approach'>
@@ -23,7 +31,7 @@ export default class ApproachContent extends React.Component {
           </div>
         </div>
         <div className="approach__cta">
-          <a className='button' href='./team.html'>Our team</a>
+          <a className='button' onClick={ this.renderTeam }>Our team</a>
         </div>
       </div>
     )
