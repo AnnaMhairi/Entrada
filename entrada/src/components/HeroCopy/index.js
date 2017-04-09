@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
 import './index.css';
+import Approach from '../Approach';
+import ReactDOM from 'react-dom'
 
 export default class HeroCopy extends Component {
+  renderApproach () {
+    return (
+      ReactDOM.render(<Approach />, document.getElementById('index'))
+    )
+  }
+
   render() {
     return (
       <div className='home home--top'>
