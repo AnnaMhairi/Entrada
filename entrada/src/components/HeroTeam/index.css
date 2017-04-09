@@ -5,19 +5,18 @@
   flex-basis: 100;
   flex-flow: column nowrap;
   background-color: rgba(246,236,224,.25);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   height: 300px;
   padding: 0 0 0 0;
-  border-top: 1px solid rgba(0,0,0,.1);
 }
 
 .hero--team {
-	background:
-	linear-gradient(
-      rgba(246,236,224,.5),
-      rgba(246,236,224,.5)
-    ),
+  background:
+  linear-gradient(
+    rgba(246,236,224,.25),
+    rgba(246,236,224,1)
+  ),
 	url('./img/ben_team.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
