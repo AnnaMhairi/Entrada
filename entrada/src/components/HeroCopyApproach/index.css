@@ -1,24 +1,21 @@
 .approach {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  min-height: 10rem;
-  border-top: 1px solid rgba(0,0,0,.1);
-  align-items: center;
   display: flex;
   padding-left: 1rem;
   padding-right: 1rem;
   flex-basis: 100;
   flex-flow: column nowrap;
   background-color: rgba(246,236,224,.25);
-  padding-top: 1rem;
-	padding-bottom: 1rem;
+  padding-top: 3rem;
+	padding-bottom: 3rem;
+  min-height: 10rem;
+  align-items: center;
 }
 
 .approach__header {
 	text-align: center;
 	font-size: 1.2rem;
 	font-family: 'Optima LT W01 Bold';
-  color: rgba(0,0,0,.7);
+  max-width: 28rem;
 }
 
 .approach__copy {
@@ -27,6 +24,11 @@
 }
 
 .approach--top {
-	min-height: 0rem;
-	background-color: rgba(110,120,70,.75);
+  min-height: 0rem;
+	background-color: rgba(110,120,70,1) !important;
+	color: rgba(255,255,255,.87);
+}
+
+.approach__header--top {
+	color: rgba(255,255,255,.7) !important;
 }

@@ -5,11 +5,11 @@ export default class HeroCopyApproach extends Component {
   render() {
     return (
       <div className='approach approach--top'>
-      	<div className='approach__header'>
+      	<div className='approach__header approach__header--top'>
       		First-class travel management for your team
       	</div>
         <div className='approach__copy'>
-          Whether it's hotel, flight, ground transporation, private charter or anything in between, we manage the details so your team can do what they do best, where they need to do it.
+          Our responsibility is handling the details so your team can do what they do best, anywhere on the globe. Hotel, flight, ground transportation, private charter, passports, visas and anything in between; we&#39;re here to help. Our small team of agents is distributed globally to deliver the service you expect around the clock.
         </div>
       </div>
     )
