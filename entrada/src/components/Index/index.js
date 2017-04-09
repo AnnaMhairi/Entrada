@@ -11,7 +11,6 @@ export default class Index extends Component {
       <div id="index">
         <Hero />
         <HeroCopy />
-        <Services />
       </div>
     );
   }

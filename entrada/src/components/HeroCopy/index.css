@@ -6,8 +6,26 @@
   flex-basis: 100;
   flex-flow: column nowrap;
   background-color: rgba(246,236,224,.25);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.home__header {
+	color: rgba(0,0,0,.7);
+	text-align: center;
+	font-size: 1.2rem;
+	font-family: 'Optima LT W01 Bold', serif;
+	max-width: 28rem;
+}
+
+.home--top {
+	min-height: 0rem;
+	background-color: rgba(10,80,120,1);
+	color: rgba(255,255,255,.87);
+}
+
+.home__header--top {
+	color: rgba(255,255,255,.7);
 }
 
 .home__copy {
@@ -15,21 +33,21 @@
 	max-width: 28rem;
 }
 
-@media only screen and (min-width: 500px) {
-  .home__header {
-    color: rgba(0,0,0,.7);
-    text-align: center;
-    font-size: 1.2rem;
-    font-family: 'Optima LT W01 Bold';
-  }
+.home__cta {
+	margin-top: 2rem;
+	text-align: center;
+}
 
-  .home--top {
-  	min-height: 0rem;
-  	background-color: rgba(10,80,120,.5);
-  }
+.button {
+	padding: .5rem 1rem .5rem 1rem;
+	transition: all 1s ease;
+	font-family: 'Optima LT W01 Bold', serif;
+}
 
-  .home__copy {
-    margin-top: 1rem;
-    max-width: 28rem;
-  }
+.button--home {
+	color: rgb(246,236,224);
+}
+
+.button--home:hover {
+	color: rgba(246,236,224,.75);
 }
