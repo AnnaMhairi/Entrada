@@ -5,12 +5,16 @@ import HeaderLinks from '../HeaderLinks'
 import './index.css'
 
 export default class Header extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render () {
     return (
       <div className='header'>
         <div className="header__row">
           <HeaderLogo />
-          <HeaderNav />
+          <HeaderNav mobileNavClicked={this.props.mobileNavClicked} />
         </div>
         <div className="header__row">
           <HeaderLinks />
