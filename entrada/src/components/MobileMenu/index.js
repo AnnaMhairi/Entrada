@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import img from '../../img/Entrada_Travel_Icon.svg';
 
 export default class MobileMenu extends React.Component {
   constructor(props) {
@@ -24,7 +25,7 @@ export default class MobileMenu extends React.Component {
               <li><a className="menu__links__link">General inquiries</a></li>
               <li className="menu__links__email">info@entradatravel.com</li>
             </ul>
-            <img width='50' src='./img/Entrada_Travel_Icon.svg'/>
+            <img width='50' src={img}/>
         </div>
       </div>
     )

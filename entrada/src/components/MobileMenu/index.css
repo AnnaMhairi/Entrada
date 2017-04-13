@@ -1,3 +1,11 @@
+.menu {
+  padding: 50px 15px;
+}
+
+.menu__footer {
+  margin-top: 75px;
+}
+
 .menu.open {
   width: 100%;
   height: 100%;
@@ -22,8 +30,18 @@
   /*position: fixed;*/
 }
 
-.menu__links a {
-  color: white;
+.menu a {
+  color: rgba(255,255,255,.87);
+}
+
+.menu__links__email {
+    font-size: .8rem;
+    color: rgba(255,255,255,.5);
+}
+
+.menu__links__link {
+    color: rgba(255,255,255,.87);
+    font-family: 'Optima LT W01 Bold', serif;
 }
 
 .menu.closed {
