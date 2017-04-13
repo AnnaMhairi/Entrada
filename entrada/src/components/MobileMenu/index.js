@@ -2,9 +2,16 @@ import React from 'react';
 import './index.css';
 
 export default class MobileMenu extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render () {
+    let viewState = this.props.navOpen ? "open" : "closed"
+    let classes = `menu ${viewState}`
+
     return (
-      <div className="menu">
+      <div className={ classes }>
         <div className="menu__links">
           <ul>
             <li><a className="menu__links__link" href='./approach.html'>Approach</a></li>

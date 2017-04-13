@@ -6,9 +6,15 @@ import '../../index.css';
 import './index.css';
 
 export default class Index extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
+    const scroll = this.props.scroll
+
     return (
-      <div id="index">
+      <div id="index" className={scroll}>
         <Hero />
         <HeroCopy />
       </div>
