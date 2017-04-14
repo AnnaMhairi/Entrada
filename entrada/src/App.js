@@ -10,13 +10,14 @@ class App extends Component {
     super(props);
     this.state = {
       navOpen: false,
+      loading: true
     };
 
     this.toggleState = this.toggleState.bind(this)
   }
 
   toggleState () {
-    this.state.navOpen ? this.setState({ navOpen: false }) : this.setState({ navOpen: true })
+    this.state.navOpen ? this.setState({ navOpen: false, loading: false }) : this.setState({ navOpen: true, loading: false })
   };
 
   render() {
@@ -25,11 +26,11 @@ class App extends Component {
       <div id="app">
         <Header mobileNavClicked={this.toggleState}/>
         { this.state.navOpen ?
-          <MobileMenu navOpen={this.state.navOpen}/> :
-          <MobileMenu navOpen={this.state.navOpen}/>
+          <MobileMenu navOpen={this.state.navOpen} loading={this.state.loading} /> :
+          <MobileMenu navOpen={this.state.navOpen} loading={this.state.loading} />
         }
         <Index scroll={scrollClass} />
-        <Footer />
+        <Footer navOpen={this.state.navOpen} />
       </div>
     );
   }

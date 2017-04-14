@@ -1,12 +1,22 @@
 .menu {
   padding: 50px 15px;
+  display: none;
 }
 
 .menu__footer {
   margin-top: 75px;
 }
 
+.menu.loading {
+  display: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
 .menu.open {
+  display: block;
   width: 100%;
   height: 100%;
   background-color: rgb(10,80,120);
@@ -21,6 +31,7 @@
 }
 
 .menu.closed {
+  display: block;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -37,11 +48,6 @@
 #index.fixed {
   overflow: hidden;
   position: fixed;
-}
-
-#index.scroll {
-  /*overflow: hidden;*/
-  /*position: fixed;*/
 }
 
 .menu a {

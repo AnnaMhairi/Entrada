@@ -8,8 +8,9 @@ export default class MobileMenu extends React.Component {
   }
 
   render () {
+    let loading = this.props.loading ? "loading" : ""
     let viewState = this.props.navOpen ? "open" : "closed"
-    let classes = `menu ${viewState}`
+    let classes = `menu ${viewState} ${loading}`
 
     return (
       <div className={ classes }>
