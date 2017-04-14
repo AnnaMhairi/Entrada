@@ -20,6 +20,20 @@
   animation: slidein .75s 1 forwards;
 }
 
+.menu.closed {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgb(10,80,120);
+  color: white;
+  top: 42px;
+  bottom: 0;
+  z-index: 1;
+  overflow-y: scroll;
+  -webkit-animation: slideout .75s 1 forwards;
+  animation: slideout .75s 1 forwards;
+}
+
 #index.fixed {
   overflow: hidden;
   position: fixed;
@@ -44,18 +58,6 @@
     font-family: 'Optima LT W01 Bold', serif;
 }
 
-.menu.closed {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  background-color: rgb(10,80,120);
-  color: white;
-  top: 42px;
-  bottom: 0;
-  z-index: 1;
-  -webkit-animation: slideout .75s 1 forwards;
-  animation: slideout .75s 1 forwards;
-}
 /*
 on click, add class 'open' (left 0), add class 'close' (left: 100%)
 */
