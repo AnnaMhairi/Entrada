@@ -14,11 +14,16 @@ class App extends Component {
     };
 
     this.toggleState = this.toggleState.bind(this)
+    this.closeMenu = this.closeMenu.bind(this)
   }
 
   toggleState () {
     this.state.navOpen ? this.setState({ navOpen: false, loading: false }) : this.setState({ navOpen: true, loading: false })
   };
+
+  closeMenu () {
+    this.setState({ navOpen: false})
+  }
 
   render() {
     let scrollClass = this.state.navOpen ? 'fixed' : 'scroll';
@@ -26,8 +31,8 @@ class App extends Component {
       <div id="app">
         <Header mobileNavClicked={this.toggleState}/>
         { this.state.navOpen ?
-          <MobileMenu navOpen={this.state.navOpen} loading={this.state.loading} /> :
-          <MobileMenu navOpen={this.state.navOpen} loading={this.state.loading} />
+          <MobileMenu navOpen={this.state.navOpen} loading={this.state.loading} closeMenu={this.closeMenu}/> :
+          <MobileMenu navOpen={this.state.navOpen} loading={this.state.loading} closeMenu={this.closeMenu} />
         }
         <Index scroll={scrollClass} />
         <Footer navOpen={this.state.navOpen} />

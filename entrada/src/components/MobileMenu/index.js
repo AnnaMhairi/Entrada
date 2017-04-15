@@ -11,12 +11,14 @@ export default class MobileMenu extends React.Component {
   }
 
   renderApproach () {
+    this.props.closeMenu()
     return (
       ReactDOM.render(<Approach />, document.getElementById('index'))
     )
   }
 
   renderTeam () {
+    this.props.closeMenu()
     return (
       ReactDOM.render(<Team />, document.getElementById('index'))
     )
@@ -24,15 +26,15 @@ export default class MobileMenu extends React.Component {
 
   render () {
     let loading = this.props.loading ? "loading" : ""
-    let viewState = this.props.navOpen ? "open" : "closed"
+    let viewState = (this.props.navOpen ? "open" : "closed")
     let classes = `menu ${viewState} ${loading}`
 
     return (
       <div className={ classes }>
         <div className="menu__links">
           <ul>
-            <li><a className="menu__links__link" onClick={ this.renderApproach }>Approach</a></li>
-            <li><a className="menu__links__link" onClick={ this.renderTeam }>Team</a></li>
+            <li><a className="menu__links__link" onClick={ this.renderApproach.bind(this) }>Approach</a></li>
+            <li><a className="menu__links__link" onClick={ this.renderTeam.bind(this) }>Team</a></li>
             <li><a className="menu__links__link">Contact</a></li>
           </ul>
         </div>
