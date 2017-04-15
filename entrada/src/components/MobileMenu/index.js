@@ -1,10 +1,25 @@
 import React from 'react';
 import './index.css';
 import img from '../../img/Entrada_Travel_Icon.svg';
+import ReactDOM from 'react-dom'
+import Approach from '../Approach'
+import Team from '../Team'
 
 export default class MobileMenu extends React.Component {
   constructor(props) {
     super(props);
+  }
+
+  renderApproach () {
+    return (
+      ReactDOM.render(<Approach />, document.getElementById('index'))
+    )
+  }
+
+  renderTeam () {
+    return (
+      ReactDOM.render(<Team />, document.getElementById('index'))
+    )
   }
 
   render () {
@@ -16,8 +31,8 @@ export default class MobileMenu extends React.Component {
       <div className={ classes }>
         <div className="menu__links">
           <ul>
-            <li><a className="menu__links__link" href='./approach.html'>Approach</a></li>
-            <li><a className="menu__links__link" href='./team.html'>Team</a></li>
+            <li><a className="menu__links__link" onClick={ this.renderApproach }>Approach</a></li>
+            <li><a className="menu__links__link" onClick={ this.renderTeam }>Team</a></li>
             <li><a className="menu__links__link">Contact</a></li>
           </ul>
         </div>
