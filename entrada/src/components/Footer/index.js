@@ -14,7 +14,6 @@ export default class Footer extends React.Component {
       			<li className='footer__item'>
               <a className='footer__link' href='mailto:info@entradatravel.com'>Contact</a>
             </li>
-        		<li className='footer__item'><a className='footer__link'>Terms of use</a></li>
     		  </ul>
     	  </div>
     	  <div className='footer__right'>
