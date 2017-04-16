@@ -35,7 +35,7 @@ export default class MobileMenu extends React.Component {
           <ul>
             <li><a className="menu__links__link" onClick={ this.renderApproach.bind(this) }>Approach</a></li>
             <li><a className="menu__links__link" onClick={ this.renderTeam.bind(this) }>Team</a></li>
-            <li><a className="menu__links__link">Contact</a></li>
+            <li><a className="menu__links__link" href='mailto:info@entradatravel.com'>Contact</a></li>
           </ul>
         </div>
         <div className="menu__footer">

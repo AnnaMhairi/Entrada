@@ -37,7 +37,7 @@ export default class TeamContent extends React.Component {
             <div className='giving__copy'>Entrada Travel is passionate about seeing the world and understands the transformative experience travel offers. Understanding the hefty costs associated with travel, we work with BLANK to help subsidize class trips around the globe for underprivileged urban youth.</div>
           </div>
         	<div className='about__cta'>
-        		<a className='button' href='./contact.html'>Contact us</a>
+        		<a className='button' href='mailto:info@entradatravel.com'>Contact us</a>
         	</div>
         </div>
     )

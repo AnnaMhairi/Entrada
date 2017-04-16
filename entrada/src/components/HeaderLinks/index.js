@@ -22,7 +22,7 @@ export default class HeaderLinks extends React.Component {
       <div className="header__links">
         <a className="header__links__link" onClick={ this.renderApproach }>Approach</a>
         <a className="header__links__link" onClick={ this.renderTeam }>Team</a>
-        <a className="header__links__link">Contact</a>
+        <a className="header__links__link" href='mailto:info@entradatravel.com'>Contact</a>
       </div>
     )
   }
