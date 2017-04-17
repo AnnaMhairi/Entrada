@@ -29,7 +29,7 @@ class App extends Component {
     let scrollClass = this.state.navOpen ? 'fixed' : 'scroll';
     return (
       <div id="app">
-        <Header mobileNavClicked={this.toggleState} navOpen={this.state.navOpen} loading={this.state.loading}/>
+        <Header mobileNavClicked={this.toggleState} navOpen={this.state.navOpen} loading={this.state.loading} closeMenu={this.closeMenu}/>
         { this.state.navOpen ?
           <MobileMenu navOpen={this.state.navOpen} loading={this.state.loading} closeMenu={this.closeMenu}/> :
           <MobileMenu navOpen={this.state.navOpen} loading={this.state.loading} closeMenu={this.closeMenu} />
