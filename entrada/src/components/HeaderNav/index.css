@@ -16,6 +16,44 @@
 	font-size: 1.4rem;
 }
 
+.material-icons.loading {
+	-webkit-animation: none !important;
+	-moz-animation: none !important;
+	-o-animation: none !important;
+	-ms-animation: none !important;
+	animation: none !important;
+}
+
+.material-icons.vertical {
+	transform: rotate(0deg);
+	animation-name: rotateSvgBack;
+	animation-duration: .5s;
+}
+
+@keyframes rotateSvgBack {
+    0% {
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.material-icons.horizontal {
+	animation-name: rotateSvg;
+	animation-duration: .5s;
+	transform: rotate(90deg);
+}
+
+@keyframes rotateSvg {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
 .header__nav__icon:hover {
 	color: rgba(0,0,0,.5);
 }

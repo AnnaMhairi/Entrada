@@ -14,7 +14,7 @@ export default class Header extends React.Component {
       <div className='header'>
         <div className="header__row">
           <HeaderLogo />
-          <HeaderNav mobileNavClicked={this.props.mobileNavClicked} />
+          <HeaderNav mobileNavClicked={this.props.mobileNavClicked} navOpen={this.props.navOpen} loading={this.props.loading}/>
         </div>
         <div className="header__row">
           <HeaderLinks />
