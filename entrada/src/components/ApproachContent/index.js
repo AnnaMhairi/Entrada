@@ -14,7 +14,7 @@ export default class ApproachContent extends React.Component {
     return (
       <div className='approach'>
         <div className='approach__header'>
-          Distinctive service, distinguished values
+          Driven by values.
         </div>
         <div className="approach__items">
           <div className="approach__items__item">
@@ -30,7 +30,7 @@ export default class ApproachContent extends React.Component {
             </p>
           </div>
           <div className="approach__items__item">
-            <p className='approach__items__item__copy text--emphasis'>Complex world. Simple Solutions.</p>
+            <p className='approach__items__item__copy text--emphasis'>Complex world. Simple solutions.</p>
             <p className='approach__items__item__copy'>
               At our heart, Entrada Travel is a team aligned around a specific purpose – helping you do your job. Sweating the details, sifting through the clutter, and streamlining your complex travel bookings is how we do it. You deserve a travel partner who gives you their undivided attention, fills you with confidence, and eliminates confusion and mistakes. And that is exactly what Entrada Travel is built to do.
             </p>

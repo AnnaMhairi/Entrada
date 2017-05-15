@@ -14,7 +14,7 @@ export default class HeroCopy extends Component {
     return (
       <div className='home home--top'>
         <div className="home__header home__header--top">
-          Born from Experience.
+          Born from experience.
         </div>
         <div className='home__copy'>
           Entrada Travel began as an internal solution for one of the most successful entertainers in the world. Our experience on the “client side” led to the realization that there was a real need for bespoke travel services for the elite travel professional – those with the means and the need for customized, detail-oriented travel coordination.
