@@ -14,12 +14,12 @@ export default class HeroCopy extends Component {
     return (
       <div className='home home--top'>
         <div className="home__header home__header--top">
-          Travel management for elite artists,<br/> athletes, and entertainment professionals
+          Born from Experience.
         </div>
         <div className='home__copy'>
-          High-profile groups have unique travel needs. Our service started as an internal solution for one of the most successful entertainers in the world. Understanding others like us could benefit from this solution, we assembled a team of highly skilled and dedicated individuals to deliver dependable, knowledgeable and refined service.
+          Entrada Travel began as an internal solution for one of the most successful entertainers in the world. Our experience on the “client side” led to the realization that there was a real need for bespoke travel services for the elite travel professional – those with the means and the need for customized, detail-oriented travel coordination.
           <p>
-            Entrada Travel&#39;s mission is to serve those on their journey to enrich the world. In service of that mission we keep our client list small and only hire the very best.
+            Since our founding, our mission has been simple. To serve those on their journey to enrich the world. In service of that mission we keep our client list small and only hire the very best.
           </p>
         </div>
         <div className='home__cta'>
